@@ -1,0 +1,21 @@
+{
+  "name": "composio-vercel-ai-agent",
+  "version": "1.0.0",
+  "description": "Vercel AI SDK + Composio agent using Claude claude-sonnet-4-6",
+  "type": "module",
+  "scripts": {
+    "start": "tsx agent.ts",
+    "dev": "tsx watch agent.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "latest",
+    "@composio/core": "latest",
+    "@composio/vercel": "latest",
+    "ai": "latest"
+  },
+  "devDependencies": {
+    "tsx": "latest",
+    "typescript": "latest",
+    "@types/node": "latest"
+  }
+}
